@@ -1,0 +1,65 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 2,
+    "settings": {
+        "layout": {
+            "contentSize": "1120px",
+            "wideSize": "920px"
+        },
+        "color": {
+            "palette": [
+                {
+                    "slug": "vinho",
+                    "color": "#680f3f",
+                    "name": "Vinho"
+                },
+                {
+                    "slug": "bege",
+                    "color": "#f8f7ec",
+                    "name": "Bege"
+                },
+                {
+                    "slug": "ouro",
+                    "color": "#e7b362",
+                    "name": "Ouro"
+                }
+            ]
+        },
+        "typography": {
+            "fontFamilies": [
+                {
+                    "fontFamily": " 'Inter', sans-serif;",
+                    "slug": "inter",
+                    "name": "Corpo - Inter",
+                    "fontFace": [
+                        {
+                            "fontFamily": " 'Inter', sans-serif;",
+                            "fontWeight": "300",
+                            "fontStyle": "normal",
+                            "fontStretch": "normal",
+                            "src": [
+                                "file:./assets/fonts/Inter-Light.ttf"
+                            ]
+                        },
+                        {
+                            "fontFamily": " 'Inter', sans-serif;",
+                            "fontWeight": "400",
+                            "fontStyle": "normal",
+                            "fontStretch": "normal",
+                            "src": [
+                                "file:./assets/fonts/Inter-Regular.ttf"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "styles": {
+        "typography": {
+            "fontFamily": "var(--wp--preset--font-family--inter)",
+            "lineHeight": "1.75",
+            "fontSize": "1rem"
+        }
+    }
+}
