@@ -28,38 +28,74 @@
         "typography": {
             "fontFamilies": [
                 {
-                    "fontFamily": " 'Inter', sans-serif;",
-                    "slug": "inter",
-                    "name": "Corpo - Inter",
+                    "fontFamily": " 'Buenard';",
+                    "slug": "buenard",
+                    "name": "Corpo - Buenard",
                     "fontFace": [
                         {
-                            "fontFamily": " 'Inter', sans-serif;",
-                            "fontWeight": "300",
-                            "fontStyle": "normal",
-                            "fontStretch": "normal",
+                            "fontFamily": " 'Buenard';",
+                            "fontWeight": "800",
+                            "fontStyle": "bold",
+                            "fontStretch": "bold",
                             "src": [
-                                "file:./assets/fonts/Inter-Light.ttf"
+                                "file:./assets/fonts/Buenard-Bold.ttf"
                             ]
                         },
                         {
-                            "fontFamily": " 'Inter', sans-serif;",
+                            "fontFamily": " 'Buenard';",
+                            "fontWeight": "800",
+                            "fontStyle": "normal",
+                            "fontStretch": "normal",
+                            "src": [
+                                "file:./assets/fonts/Buenard-Bold.ttf"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fontFamily": "Mustica, sans-serif;",
+                    "slug": "mustica",
+                    "name": "Título - Mustica",
+                    "fontFace": [
+                        {
+                            "fontFamily": "Mustica, sans-serif;",
                             "fontWeight": "400",
                             "fontStyle": "normal",
                             "fontStretch": "normal",
                             "src": [
-                                "file:./assets/fonts/Inter-Regular.ttf"
+                                "file:./assets/fonts/Mustica-Regular.ttf"
                             ]
                         }
                     ]
                 }
             ]
+        },
+        "custom": {
+            "typography": {
+                "fontSize": {
+                    "pequeno": "0.875rem",
+                    "medio": "1rem",
+                    "grande": "1.225rem",
+                    "muitogrande": "2.2rem"
+                }
+            }
         }
     },
     "styles": {
         "typography": {
-            "fontFamily": "var(--wp--preset--font-family--inter)",
+            "fontFamily": "var(--wp--preset--font-family--buenard)",
             "lineHeight": "1.75",
             "fontSize": "1rem"
+        },
+        "elements": {
+            "h1": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--mustica)",
+                    "fontWeight": "600",
+                    "lineHeight": "1.2",
+                    "fontSize": "   var(--wp--custom--typography--font-size--muitogrande)"
+                }
+            }
         }
     }
 }
